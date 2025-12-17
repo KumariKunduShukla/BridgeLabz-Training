@@ -14,12 +14,11 @@ public static void main(String[] args)
    double multiplication=number1*number2;//  calculating multiplication
    double division=number1/number2;// calculating division
    
-   // displays result
+   // displays the result
    System.out.println("The addition, subtraction, multiplication and division value of 2 numbers " 
                            + number1 + " and " + number2 + " is " 
                            + addition + ", " + subtraction + ", " 
                            + multiplication + ", and " + division);
   
 }
-
 }
