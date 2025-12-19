@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class CountNumberOfDigits{
    public static void main(String[]args){
-       
-       //Initialize variables
-         int number;
-         int count=0;
-       
-         Scanner input=new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
+      //Initialize variables
+        int number;
+        int count=0;
+         
          
       // Take input from users
          System.out.print("Enter Number:");
