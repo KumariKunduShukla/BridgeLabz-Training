@@ -42,6 +42,6 @@ public class OddEvenArray{
         }
         
 		// Closing Scanner stream
-        sc.close();
+        input.close();
     }
 }
