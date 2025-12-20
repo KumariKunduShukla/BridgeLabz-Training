@@ -16,16 +16,16 @@ public class SumOfNaturalNumberUsingMethods{
 	// Main method
 	public static void main(String[] args){
 	// Create scanner object
-	Scanner sc=new Scanner(System.in);
+	Scanner input=new Scanner(System.in);
 	
 	// Take user input
 	System.out.print("Enter the number: ");
-	int number=sc.nextInt();
+	int number=input.nextInt();
 	
 	// Displaying sum using method
 	System.out.println(calculateSum(number));
 	
 	// Closing scanner stream
-	sc.close();
+	input.close();
 	}
    }
