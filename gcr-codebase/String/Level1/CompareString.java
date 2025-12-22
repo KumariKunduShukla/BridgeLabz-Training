@@ -1,5 +1,4 @@
 // Program to compare two strings.
-
 import java.util.Scanner;
 
 public class CompareString{
