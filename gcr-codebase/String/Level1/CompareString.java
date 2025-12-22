@@ -42,7 +42,8 @@ public class CompareString{
 		    System.out.println("Both results are same");
 		else
 		    System.out.println("Both results are not same");
-			
+
+		// Closing scanner stream
 		input.close();
     }
   }
