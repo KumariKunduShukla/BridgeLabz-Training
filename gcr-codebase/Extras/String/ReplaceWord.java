@@ -1,5 +1,4 @@
 // Program to replace a word with another
-
 import java.util.Scanner;
 
 public class ReplaceWord {
