@@ -1,5 +1,4 @@
 // Program of temperature logger
-
 import java.util.Scanner;
 
 public class TemperatureLogger{
