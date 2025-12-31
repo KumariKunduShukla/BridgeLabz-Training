@@ -16,7 +16,7 @@ public class Course {
         return courseName;
     }
 
-    public void addStudent(Student student) {
+    public void addStudent(UniversityStudent student) {
         enrolledStudents.add(student);
     }
 
