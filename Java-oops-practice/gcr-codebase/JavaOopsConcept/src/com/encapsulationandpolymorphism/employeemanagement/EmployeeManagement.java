@@ -6,7 +6,7 @@ import java.util.List;
 public class EmployeeManagement {
 	public static void main(String[] args) {
 
-        // List of employees using Employee reference (Polymorphism)
+        // List of employees using Employee reference 
         List<Employee> employees = new ArrayList<>();
 
         FullTimeEmployee emp1 =
