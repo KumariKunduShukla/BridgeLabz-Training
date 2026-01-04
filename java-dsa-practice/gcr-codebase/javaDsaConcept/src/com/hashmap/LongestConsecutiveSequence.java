@@ -1,4 +1,4 @@
-package com.linkedlist.hashmap;
+package com.hashmap;
 
 import java.util.*;
 
