@@ -9,5 +9,6 @@ class OutPatient extends Patient {
     @Override
     public void displayInfo() {
         System.out.println("OutPatient: " + name);
+        System.out.println("------------------------------");
     }
 }
