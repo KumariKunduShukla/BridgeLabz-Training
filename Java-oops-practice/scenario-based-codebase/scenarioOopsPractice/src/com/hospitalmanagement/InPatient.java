@@ -11,5 +11,6 @@ class InPatient extends Patient {
     @Override
     public void displayInfo() {
         System.out.println("InPatient: " + name + ", Days Admitted: " + daysAdmitted);
+        
     }
 }
