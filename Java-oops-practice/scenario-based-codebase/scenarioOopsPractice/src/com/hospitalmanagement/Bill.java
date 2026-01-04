@@ -15,5 +15,6 @@ class Bill implements Payable {
         double tax = baseAmount * taxRate;
         double discount = baseAmount * discountRate;
         return baseAmount + tax - discount;
+        
     }
 }
