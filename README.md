@@ -79,19 +79,3 @@ Linked List is a **dynamic linear data structure** that stores elements in nodes
 👉 [Day 16 – Stack, Queue & Hashing (DSA)](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/stackandqueue)
 
 ---
-
-## 🛠 Technologies Used
-- **Java**
-- Object-Oriented Programming (OOP)
-- Data Structures & Algorithms
-
----
-
-## 🚀 Goals
-- Strengthen DSA fundamentals
-- Write optimized and interview-ready code
-- Build strong problem-solving skills
-
----
-
-✨ *This repository will be updated daily with new DSA topics and implementations.*
