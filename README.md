@@ -1,65 +1,97 @@
-## 📅 Day 15 – Data Structures & Algorithms: Linked List
-*(Date: 02-01-2026)*
-*(Focus: DSA Fundamentals – Linked List Variants)*
+# 📘 Data Structures & Algorithms (DSA) – Learning Progress
 
-- > Learned the fundamentals of Data Structures and Algorithms (DSA) and their importance in efficient problem-solving.
+This repository documents my **daily learning progress in Data Structures and Algorithms (DSA)** using **Java**. It includes conceptual understanding, hands-on implementations, and well-structured code following best practices.
 
-- > Understood how data structures help in organizing and managing data for optimized performance.
+---
 
-- > Studied Linked List as a dynamic linear data structure that uses nodes instead of contiguous memory.
-  
-- > Learned the structure of a node containing data and references (links).
+## 📅 Day 15 – Linked List
+**🗓 Date:** 02-01-2026  
+**🎯 Focus:** DSA Fundamentals – Linked List Variants
 
-- > Explored different types of Linked Lists:
+### 🔹 Overview
+Linked List is a **dynamic linear data structure** that stores elements in nodes instead of contiguous memory locations. Each node contains data and one or more references (links).
 
-Singly Linked List – traversal in one direction using next reference.
+### 🔹 Concepts Covered
+- Importance of **DSA** in efficient problem-solving
+- Advantages of Linked Lists over arrays
+- Structure of a node (data + reference)
 
-Doubly Linked List – traversal in both directions using previous and next references.
+### 🔹 Types of Linked Lists
+- **Singly Linked List** – Traversal in one direction using `next`
+- **Doubly Linked List** – Traversal in both directions using `previous` and `next`
+- **Circular Linked List** – Last node points back to the first node
 
-Circular Linked List – last node links back to the first node forming a loop.
+### 🔹 Operations Implemented
+- Insertion
+- Deletion
+- Traversal
+- Searching
 
-- > Practiced implementing Linked Lists using Java classes and pointer-based logic.
+### 🔹 Key Learnings
+- Pointer-based logic using Java references
+- Writing clean and readable DSA code
+- Proper naming conventions and formatting
 
-- > Gained clarity on insertion, deletion, traversal, and searching operations.
+🔗 **Code Link:**  
+👉 [Day 15 – Linked List (DSA)](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist)
 
-- > Focused on writing clean, readable, and well-structured DSA-based code.
+---
 
-- > Followed proper naming conventions, indentation, and consistent formatting.
+## 📅 Day 16 – Stack, Queue & Hashing
+**🗓 Date:** 03-01-2026  
+**🎯 Focus:** DSA Fundamentals – Stack, Queue, HashMap & Hashing
 
-- > Organized all Linked List programs systematically in the DSA practice branch.
+### 🔹 Stack
+- Linear data structure following **LIFO (Last In, First Out)**
+- Operations implemented:
+  - `push`
+  - `pop`
+  - `peek`
+  - `isEmpty`
 
-🔗 Code Link:
-[👉 Day 15 – Linked List (DSA)](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist)
+### 🔹 Queue
+- Linear data structure following **FIFO (First In, First Out)**
+- Operations implemented:
+  - `enqueue`
+  - `dequeue`
+  - `front`
+  - `rear`
+- Explored real-world applications of Queue
 
-## 📅 Day 16 – Data Structures & Algorithms: Stack, Queue & Hashing
-*(Date: 03-01-2026)*
-*(Focus: DSA Fundamentals – Stack, Queue, HashMap & Hashing)*
+### 🔹 Hashing & HashMap
+- Concept of **hashing** for fast data access
+- Understanding **HashMap** as key–value storage
+- Studied:
+  - Hash functions
+  - Collision handling
+  - Efficient searching
 
-- > Learned the fundamentals of Stack as a linear data structure that follows the LIFO (Last In, First Out) principle.
+### 🔹 Practical Implementation
+- Implemented Stack, Queue, and HashMap using **Java**
+- Improved understanding of **time complexity and performance optimization**
 
-- >Understood common Stack operations such as push, pop, peek, and isEmpty.
+### 🔹 Code Quality
+- Clean, readable, and modular code
+- Consistent indentation and formatting
+- Programs organized systematically in DSA practice branch
 
-- >Studied Queue as a linear data structure that follows the FIFO (First In, First Out) principle.
+🔗 **Code Link:**  
+👉 [Day 16 – Stack, Queue & Hashing (DSA)](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/stackandqueue)
 
-- >Learned Queue operations including enqueue, dequeue, front, and rear.
+---
 
-- >Explored different Queue implementations and real-world use cases.
+## 🛠 Technologies Used
+- **Java**
+- Object-Oriented Programming (OOP)
+- Data Structures & Algorithms
 
-- >Studied Hashing as a technique to map data to fixed-size values for fast access.
+---
 
-- >Understood how HashMap stores data in key–value pairs using hashing.
+## 🚀 Goals
+- Strengthen DSA fundamentals
+- Write optimized and interview-ready code
+- Build strong problem-solving skills
 
-- >Learned about hash functions, collision handling, and efficient searching.
+---
 
-- >Practiced implementing Stack, Queue, and HashMap concepts using Java.
-
-- >Gained clarity on how these data structures improve time complexity and performance.
-
-- >Focused on writing clean, readable, and well-structured DSA-based code.
-
-- >Followed proper naming conventions, indentation, and consistent formatting.
-
-- >Organized all Stack, Queue, and Hashing programs systematically in the DSA practice branch.
-
-🔗 Code Link:
-[👉 Day 16 – Stack, Queue & Hashing (DSA)](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/stackandqueue)
+✨ *This repository will be updated daily with new DSA topics and implementations.*
