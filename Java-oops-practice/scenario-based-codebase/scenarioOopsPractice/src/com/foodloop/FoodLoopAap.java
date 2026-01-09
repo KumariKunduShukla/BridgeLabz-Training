@@ -30,9 +30,6 @@ public class FoodLoopAap {
         
         // Placed order
         order.placeOrder();
-        
-
-		
-	}
+  }
 
 }
