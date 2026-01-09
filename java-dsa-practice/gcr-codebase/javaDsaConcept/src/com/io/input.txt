@@ -1,2 +1,4 @@
 My name is Kundu Shukla
 I am from Singrauli , Madhya Pradesh
+This is a java programming langauge
+java is a platform independent language
