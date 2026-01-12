@@ -1,68 +1,99 @@
 package com.ambulanceroute;
 
-import java.util.ArrayList;
-import java.util.List;
-
 
 public class Route {
-	
-	    private List<HospitalUnit> units = new ArrayList<>();
-	    private int currentIndex = 0;
+	private Node head = null;
 
-	    // Add hospital unit
-	    public void addUnit(String name, boolean available) {
-	        units.add(new HospitalUnit(name, available));
-	    }
+    // Add hospital unit
+    public void addUnit(String name, boolean available) {
+        Node newNode = new Node(name, available);
 
-	    // Find nearest available unit (circular)
-	    public void findAvailableUnit() {
-	        if (units.isEmpty()) {
-	            System.out.println("🚨 No hospital units available.");
-	            return;
-	        }
+        if (head == null) {
+            head = newNode;
+            newNode.next = head;
+            return;
+        }
 
-	        int checked = 0;
+        Node temp = head;
+        while (temp.next != head) {
+            temp = temp.next;
+        }
 
-	        while (checked < units.size()) {
-	            HospitalUnit unit = units.get(currentIndex);
+        temp.next = newNode;
+        newNode.next = head;
+    }
 
-	            if (unit.available) {
-	                System.out.println(" Patient treated at: " + unit.name);
-	                return;
-	            } else {
-	                System.out.println( unit.name + " not available, redirecting...");
-	            }
+    // Rotate until an available unit is found
+    public void findAvailableUnit() {
+        if (head == null) {
+            System.out.println("No hospital units available.");
+            return;
+        }
 
-	            currentIndex = (currentIndex + 1) % units.size();
-	            checked++;
-	        }
+        Node temp = head;
 
-	        System.out.println(" No available unit found!");
-	    }
+        do {
+            if (temp.available) {
+                System.out.println("Patient treated at: " + temp.name);
+                return;
+            } else {
+                System.out.println(temp.name + " not available, redirecting...");
+            }
+            temp = temp.next;
+        } while (temp != head);
 
-	    // Remove unit under maintenance
-	    public void removeUnit(String unitName) {
-	        for (int i = 0; i < units.size(); i++) {
-	            if (units.get(i).name.equals(unitName)) {
-	                units.remove(i);
-	                System.out.println(" Unit removed (Maintenance): " + unitName);
-	                currentIndex = currentIndex % units.size();
-	                return;
-	            }
-	        }
-	        System.out.println("Unit not found.");
-	    }
+        System.out.println("No available unit found.");
+    }
 
-	    // Display route
-	    public void displayRoute() {
-	        if (units.isEmpty()) {
-	            System.out.println("No units in route.");
-	            return;
-	        }
+    // Remove unit under maintenance
+    public void removeUnit(String name) {
+        if (head == null) return;
 
-	        for (HospitalUnit unit : units) {
-	            System.out.print(unit.name + " → ");
-	        }
-	        System.out.println("(Circular)");
-	    }
-	}
+        Node curr = head;
+        Node prev = null;
+
+        do {
+            if (curr.name.equals(name)) {
+
+                // Only one node
+                if (curr == head && curr.next == head) {
+                    head = null;
+                    return;
+                }
+
+                // Removing head
+                if (curr == head) {
+                    Node last = head;
+                    while (last.next != head) {
+                        last = last.next;
+                    }
+                    head = head.next;
+                    last.next = head;
+                } else {
+                    prev.next = curr.next;
+                }
+
+                System.out.println("Unit removed (Maintenance): " + name);
+                return;
+            }
+            prev = curr;
+            curr = curr.next;
+        } while (curr != head);
+    }
+
+    // Display circular route
+    public void displayRoute() {
+        if (head == null) {
+            System.out.println("No units in route.");
+            return;
+        }
+
+        Node temp = head;
+        do {
+            System.out.print(temp.name + "->" );
+            temp = temp.next;
+        } while (temp != head);
+
+        System.out.println("(Back to Emergency)");
+    }
+}
