@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 public class Customer {
 	    // instance variable
-		private String name;
-		private HashMap<String, Integer> items = new HashMap<String, Integer>();
+		protected String name;
+		HashMap<String, Integer> items = new HashMap<String, Integer>();
 
 		// constructor to initialize instance variable
 		public Customer(String name) {
