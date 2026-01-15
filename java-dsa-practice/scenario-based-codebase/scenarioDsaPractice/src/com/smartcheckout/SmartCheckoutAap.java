@@ -1,7 +1,5 @@
 package com.smartcheckout;
 
-import java.util.Arrays;
-
 public class SmartCheckoutAap {
 	public static void main(String[] args) {
 
