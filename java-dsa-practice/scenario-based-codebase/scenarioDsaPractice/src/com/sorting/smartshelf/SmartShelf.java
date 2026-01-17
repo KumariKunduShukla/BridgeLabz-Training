@@ -3,6 +3,7 @@ package com.sorting.smartshelf;
 import java.util.Scanner;
 
 public class SmartShelf {
+	
 	// Insertion Sort by book title (A → Z)
     static void insertionSort(Book[] books) {
         for (int i = 1; i < books.length; i++) {
