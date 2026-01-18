@@ -20,7 +20,7 @@ public class ReverseArrayList {
         }
         System.out.println(Arrays.asList(1, 2, 3, 4, 5));
         System.out.println();
-        System.out.println("Reversed List:");
+        System.out.println("Reverse List:");
         System.out.println(list);
     }
 }
