@@ -1,4 +1,4 @@
-package com.movietime;
+package com.sorting.movietime;
 
 class MovieTime {
 
