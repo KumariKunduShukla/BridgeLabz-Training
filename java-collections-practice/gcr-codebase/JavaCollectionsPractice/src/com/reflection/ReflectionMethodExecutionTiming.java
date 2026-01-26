@@ -1,4 +1,5 @@
 package com.reflection;
+
 import java.lang.reflect.Method;
 
 class Task {
@@ -12,7 +13,7 @@ class Task {
     }
 }
 
-public class ReflectionMethodTiming {
+public class ReflectionMethodExecutionTiming {
 
     // Method to execute and measure time
     public static void executeWithTiming(Object obj) throws Exception {
