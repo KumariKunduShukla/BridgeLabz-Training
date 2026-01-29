@@ -178,6 +178,21 @@ BridgeLabz-Training/
 - **String Utilities**: `StringBuilder` and `StringBuffer` for mutable strings
 - **File Handling**: Reading input using `FileReader` and `InputStreamReader`
 - **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
+
+- ### Collections Framework (java-collections-practice)
+- **Generics**: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
+- **Collections Overview**: Purpose and benefits of Java Collections Framework
+- **Hierarchy**: `Iterable`, `Collection`, `List`, `Set`, `Queue`, and `Map`
+- **List Implementations**: `ArrayList`, `LinkedList`, `Vector`
+- **Set Implementations**: `HashSet`, `LinkedHashSet`, `TreeSet`
+- **Map Implementations**: `HashMap`, `LinkedHashMap`, `TreeMap`, `Hashtable`
+- **Queue & Deque**: `PriorityQueue`, `ArrayDeque`
+- **Hands-on Practice**: CRUD, iteration, ordering, and performance examples
+- **I/O Streams**: Byte & character streams, buffering, object serialization, and efficient file handling
+- **Exception Handling**: Checked vs unchecked exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, custom exceptions, try-with-resources
+- **Regex & JUnit Testing**: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle
+- **Reflection**: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing 
+- **Annotations**: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage 
   
 ---
 
