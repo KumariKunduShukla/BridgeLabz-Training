@@ -225,6 +225,19 @@ BridgeLabz-Training/
 - 📌 [Sorting Algorithms](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/sorting)
 - 📌 [Searching Algorithms, String & I/O utilities](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/searching)
 
+- ### `java-collections-practice` :
+- 📌 [Generics](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
+- 📌 [List Interface](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/list)
+- 📌 [Set Interface](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/set)
+- 📌 [Queue Interface](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/queue)
+- 📌 [Map Interface](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections/map)
+- 📌 [I/O Streams](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams)
+- 📌 [Exception Handling](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptionhandling)
+- 📌 [Regex - Regular Expressions](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/regex)
+- 📌 [JUnit Testing](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/junit)
+- 📌 [Reflection](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
+- 📌 [Annotations](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotations)
+
 ---
 
 ## 🎓 Learnings & Best Practices
