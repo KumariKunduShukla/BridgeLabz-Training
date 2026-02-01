@@ -1,4 +1,4 @@
-package com.defaultmethodininterface;
+package com.defaultmethodininterface.paymentgatewayintegration;
 public interface PaymentProcessor {
 
     void pay(double amount);
