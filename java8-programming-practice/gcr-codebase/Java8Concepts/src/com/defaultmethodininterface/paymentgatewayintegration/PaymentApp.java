@@ -1,4 +1,4 @@
-package com.defaultmethodininterface;
+package com.defaultmethodininterface.paymentgatewayintegration;
 import java.util.Scanner;
 
 public class PaymentApp {
