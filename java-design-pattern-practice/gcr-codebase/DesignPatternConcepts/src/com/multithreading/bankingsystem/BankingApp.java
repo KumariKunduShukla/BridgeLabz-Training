@@ -1,5 +1,4 @@
 package com.multithreading.bankingsystem;
-
 public class BankingApp {
 
     public static void main(String[] args) throws Exception {
