@@ -270,7 +270,7 @@ BridgeLabz-Training/
 - **File Handling**: Reading input using `FileReader` and `InputStreamReader`
 - **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
 
-- ### Collections Framework (java-collections-practice)
+### Collections Framework (java-collections-practice)
 - **Generics**: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
 - **Collections Overview**: Purpose and benefits of Java Collections Framework
 - **Hierarchy**: `Iterable`, `Collection`, `List`, `Set`, `Queue`, and `Map`
@@ -284,7 +284,42 @@ BridgeLabz-Training/
 - **Regex & JUnit Testing**: Pattern matching, validation rules, groups, quantifiers, unit tests, assertions, test lifecycle
 - **Reflection**: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing 
 - **Annotations**: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage 
-  
+
+### Java I/O Streams (java-iostreams-practice)
+- **CSV Data Handling**: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling
+- **JSON Data Handling**: JSON creation, parsing, POJO mapping, schema validation, merging datasets, CSV to JSON conversion
+
+### Java 8 Features (java8-programming-practice)
+- **Lambda Expressions**: Functional programming syntax and usage
+- **Functional Interfaces**: `Predicate`, `Function`, `Consumer`, `Supplier`
+- **Method References**: Static, instance, and constructor references
+- **Interface Enhancements**: Default and static methods
+- **Streams API**: Lazy evaluation, pipelines, parallel streams
+- **Collectors**: Grouping, partitioning, summarization, joining
+- **Workshop**: Real-world data processing using streams
+- **Problem Solving**: LeetCode challenges, real-world scenarios
+
+### Java Design Principles & Design Patterns (java-design-pattern-practice)
+- **Design Principles**: SOLID, DRY, KISS, YAGNI, composition over inheritance
+- **Design Patterns**: Singleton, Factory, Observer, Builder
+- **Clean Code Practices**: Object Calisthenics, interface-driven design
+- **Multithreading**: Thread lifecycle, creation using Thread & Runnable, priorities, daemon threads
+- **Synchronization**: Locks, shared resource handling, race-condition prevention
+- **Concurrency Testing**: JUnit validation, timing logs, performance comparison
+-  **Problem Solving**: LeetCode challenges, real-world scenarios
+
+### DBMS, SQL & JDBC Fundamentals (dbms-jdbc-practice)
+- **Database Design**: Normal forms (1NF–4NF, BCNF), schema modeling
+- **Keys**: Primary, foreign, composite, candidate, unique
+- **SQL Commands**: DDL, DML, DQL, DCL, TCL
+- **Joins**: Inner, outer, cross, self joins
+- **Advanced Queries**: Subqueries, CTEs, window functions
+- **Indexing**: Clustered, non-clustered, composite, full-text, unique
+- **Query Optimization**: Execution plans, `EXPLAIN`, tuning strategies
+- **JDBC Architecture**: DriverManager, Connection, Statement APIs
+- **Database Operations**: CRUD using PreparedStatement
+- **Transactions**: Commit, rollback, savepoints, auto-commit handling
+- **Design Patterns**: DAO and DTO for database applications
 ---
 
 ## 🔗 Quick Links
