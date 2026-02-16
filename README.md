@@ -21,7 +21,7 @@
 - > Focused on writing efficient, consistent, and reliable SQL queries following database best practices.
 
 🔗 Code:
-[👉 Day 1 – MySQL Practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/MySQLConcept/src)
+[👉 Day 1 – MySQL Practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/MySQLConcept/src/com/mysqlpractice)
 
 ## 📅 Day 2 – JDBC & MySQL Integration
 
@@ -45,3 +45,5 @@ Also handled exceptions properly and followed clean coding practices for reliabl
 
 🔗 Code: 
 [👉 Day 2 - JDBC](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/JDBCPractice)
+
+
