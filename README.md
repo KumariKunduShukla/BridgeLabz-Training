@@ -22,6 +22,18 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 ### 🔹 [java-collections-practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-collections-practice)
 **Week 4** : Collections Framework in Java
 
+### 🔹 [java-iostreams-practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-iostreams-practice)
+**Week 5** : Java I/O Streams
+
+### 🔹 [java8-programming-practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java8-programming-practice)
+**Week 6** : Java 8 Features
+
+### 🔹 [java-design-pattern-practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/java-design-pattern-practice)
+**Week 7** : Java Design Principles & Design Patterns
+
+### 🔹 [dbms-jdbc-practice](https://github.com/KumariKunduShukla/BridgeLabz-Training/tree/dbms-jdbc-practice)
+**Week 8** : DBMS, SQL & JDBC Fundamentals
+
 ---
 
 ## 📂 Project Structure
@@ -44,7 +56,7 @@ BridgeLabz-Training/
 │
 ├── 📁 java-oops-practice/
 │   ├── 📁 gcr-codebase/
-│   │  └── 📁 JavaOopsConcepts/
+│   │   └── 📁 JavaOopsConcepts/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
@@ -59,7 +71,7 @@ BridgeLabz-Training/
 |
 ├── 📁 dsa-practice/
 │   ├── 📁 gcr-codebase/
-│   │  └── 📁 DSAConcepts/
+│   │   └── 📁 DSAConcepts/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 linkedlists/       # singly, doubly & circular
@@ -73,9 +85,9 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
-└── 📁 java-collections-practice/
+├── 📁 java-collections-practice/
 │   ├── 📁 gcr-codebase/
-│   │  └── 📁 CollectionsConcepts/
+│   │   └── 📁 CollectionsConcepts/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 generics/          # Generic classes, methods, wildcards
@@ -91,9 +103,65 @@ BridgeLabz-Training/
 │   │               ├── 📁 reflection/        # Runtime inspection, dynamic invocation, proxies
 │   │               └── 📁 annotations/       # Built-in & custom annotations, processors
 |   |
-│   ├── 📁 leet-code-codebase/
-│   └── 📁 scenario-based-codebase/
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
 |
+├── 📁 java-iostreams-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 IOStreamsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 csvdata/           # CSV reading/writing, validation, and large-file handling
+│   │               └── 📁 jsondata/          # JSON parsing, schema validation, mapping, conversions
+|   |
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 java8-programming-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 Java8Concepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 lambdas/           # Lambda expressions, functional interfaces, syntax
+│   │               ├── 📁 methodreferences/  # Static, instance, constructor references
+│   │               ├── 📁 interfaces/        # Default methods, static methods, functional interfaces
+│   │               ├── 📁 streams/           # Stream API, intermediate & terminal operations
+│   │               ├── 📁 collectors/        # Grouping, partitioning, summarizing collectors
+│   │               └── 📁 workshop/          # Mini projects & real-world stream problems
+|   |
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 java-design-pattern-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DesignConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
+│   │               └── 📁 multithreading/    # Thread lifecycle, synchronization, concurrency examples 
+|   |
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+├── 📁 dbms-jdbc-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DBMSJDBCConcepts/
+│   │       ├── 📁 src/
+│   │       │   └── 📁 main/
+│   │       │       ├── 📁 resources/
+│   │       │       │   └── 📁 com/
+│   │       │       │       └── 📁 dbmsjdbc/
+│   │       │       │           └── 📁 sql/         # SQL scripts, DBMS fundamentals & MySQL DB
+│   │       │       └── 📁 java/
+│   │       │           └── 📁 com/
+│   │       │               └── 📁 dbmsjdbc/
+│   │       │                   └── 📁 jdbc/        # JDBC programs & DAO layer
+│   │       │
+│   │       └── pom.xml                             # Maven configuration and dependency management
+│   │
+│   ├── 📁 leet-code-codebase/                      # LeetCode solutions
+│   └── 📁 scenario-based-codebase/                 # Real-world problems
+│
 └── README.md
 ```
 
@@ -146,8 +214,31 @@ BridgeLabz-Training/
 | 26  | 21-Jan      | Regex & JUnit Testing          | Pattern matching, validations, groups, unit testing, assertions     |
 | 27  | 22-Jan      | Annotations & Reflection       | Built-in & custom annotations, runtime inspection, proxies          |
 
----
+### **Week 5 : Java I/O Streams**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 28  | 23-Jan      | CSV Data Handling in Java      | Read/write CSV, validation, large-file processing, dataset merging  |
+| 29  | 24-Jan      | JSON Data Handling in Java     | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.    |
 
+### **Week 6 : Java 8 Features**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
+| 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
+
+### **Week 7 : Java Design Principles & Design Patterns**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 32  | 31-Jan      | Design Principles & Patterns   | SOLID, DRY, YAGNI, KISS, GoF patterns, clean code principles        |
+| 33  | 02-Feb      | Multithreading in Java         | Thread lifecycle, synchronization, concurrency use cases            |
+
+### **Week 8 : DBMS, SQL & JDBC Fundamentals**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 34  | 06-Feb      | DBMS & SQL Optimization        | Normalization, joins, transactions, indexes, tuning & EXPLAIN       |
+| 35  | 09-Feb      | JDBC Fundamentals, Connectivity| JDBC architecture, CRUD operations, transactions, DAO/DTO patterns  |
+
+---
 ##  Key Concepts Covered
 
 ### Core Java (core-java-practice)
